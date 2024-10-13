@@ -1,0 +1,145 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-ul {
+  margin: 0;
+  background-color: skyblue;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  height: 3rem;
+}
+
+.nav-logo {
+  width: 45px;
+  height: 40px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.nav-ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.signup_form,
+.login_form,
+.add_products_form,
+.update_products_form {
+  height: 100vh;
+}
+
+.signup_form,
+.login_form,
+.add_products_form,
+.update_products_form h1 {
+  text-align: center;
+}
+
+.input span {
+  margin-left: 36%;
+}
+
+.inputBox {
+  display: block;
+  margin: 20px auto 0;
+  width: 350px;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  height: 30px;
+  padding: 6px;
+  outline: none;
+}
+
+.signup_form input:focus {
+  border: 2px solid darkcyan;
+}
+
+.button {
+  text-align: center;
+}
+
+.register_button,
+.login_button,
+.addProduct_button,
+.updateProduct_button {
+  background-color: skyblue;
+  border: 1px solid;
+  width: 150px;
+  border-radius: 4px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  display: block;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 30px;
+  height: 100vh;
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 15px;
+  width: 100px;
+}
+
+.product-list ul .operations {
+  width: 150px;
+  height: 19px;
+}
+
+.product-list ul .operations button {
+  margin-right: 15px;
+}
+
+.product-list ul {
+  margin: 0;
+}
+
+.product-list .product-list-heading {
+  font-weight: bolder;
+}
+
+.search-product{
+  width: 20rem;
+  padding: 0.5rem;
+  margin: 1.2rem;
+  border-radius: 1rem;
+  border-color: skyblue;
+  outline: none;
+}
+
+.footer {
+  background-color: skyblue;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.footer h1 {
+  margin: 0;
+}
